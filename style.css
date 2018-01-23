@@ -1,0 +1,56 @@
+.google {
+  font-size: 85px;
+  font-family: "Helvetica", sans-serif;
+  position: relative;
+  top: 200px;
+  left: 800px;
+}
+
+#g, #o1, #o2, #l, #e {
+  display: inline;
+  float: left;
+}
+
+#g {
+  color: blue;
+}
+
+#o1, #e {
+  color: red;
+}
+
+#o2 {
+  color: yellow;
+}
+
+#l {
+  color: green;
+}
+
+input {
+  position: relative;
+  top: 325px;
+  left: 375px;
+  width: 575px;
+  height: 40px;
+  font-size: 18px;
+}
+
+#search, #luck {
+  position: relative;
+  height: 40px;
+  font-size: 15px;
+  -moz-appearance: none;
+}
+
+#search {
+  top: 350px;
+  left: 515px;
+  width: 125px;
+}
+
+#luck {
+  top: 350px;
+  left: 525px;
+  width: 150px;
+}
