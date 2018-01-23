@@ -1,3 +1,7 @@
+body {
+  width: 1000px;
+}
+
 .google {
   font-size: 85px;
   font-family: "Helvetica", sans-serif;
@@ -27,7 +31,7 @@
   color: green;
 }
 
-input {
+form input {
   position: relative;
   top: 325px;
   left: 375px;
@@ -40,17 +44,58 @@ input {
   position: relative;
   height: 40px;
   font-size: 15px;
+  top: 350px;
   -moz-appearance: none;
 }
 
 #search {
-  top: 350px;
   left: 515px;
   width: 125px;
 }
 
 #luck {
-  top: 350px;
   left: 525px;
   width: 150px;
+}
+
+nav {
+  font-size: 12px;
+  font-family: "Helvetica", sans-serif;
+  position: relative;
+  top: 15px;
+}
+
+li {
+  display: inline;
+  margin-left: 25px;
+}
+
+nav a:link{
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav input {
+  background-color: blue;
+  -moz-appearance: none;
+  color: white;
+  height: 30px;
+  width: 70px; 
+  font-weight: bold;
+  position: relative;
+  left: 1515px
+}
+
+#mail {
+  position: relative;
+  left: 1450px;
+}
+
+#image {
+  position: relative;
+  left: 1450px;
 }
